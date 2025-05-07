@@ -1,0 +1,13 @@
+@Streamer = http://localhost:5169/api/filme
+###
+GET http://localhost:5169/api/filme/Listar
+###
+POST {{Streamer}}/Cadastrar
+Content-Type: application/json
+
+{
+   "Nome": "Jumanji",
+  "Descricao": "Filme de ação com um jogo",
+  "CategoriaId": 2,
+  "LinkVideo": "https://www.youtube.com/watch?v=MHrMG5KoVYA"
+}

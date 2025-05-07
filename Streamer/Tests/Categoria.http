@@ -1,0 +1,10 @@
+@Streamer = http://localhost:5169/api/categoria
+### Listar
+GET http://localhost:5169/api/categoria/listar
+### Cadatro
+POST {{Streamer}}/cadastrar
+Content-Type: application/json
+
+{   
+    "Nome": "Comedia"
+}

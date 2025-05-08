@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\_ws\\Streamer\\Streamer\\Streamer.csproj": {}
+    "C:\\Users\\extre\\OneDrive\\Área de Trabalho\\API-STREAMER-main\\API-STREAMER-main\\Streamer\\Streamer.csproj": {}
   },
   "projects": {
-    "C:\\_ws\\Streamer\\Streamer\\Streamer.csproj": {
+    "C:\\Users\\extre\\OneDrive\\Área de Trabalho\\API-STREAMER-main\\API-STREAMER-main\\Streamer\\Streamer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\_ws\\Streamer\\Streamer\\Streamer.csproj",
+        "projectUniqueName": "C:\\Users\\extre\\OneDrive\\Área de Trabalho\\API-STREAMER-main\\API-STREAMER-main\\Streamer\\Streamer.csproj",
         "projectName": "Streamer",
-        "projectPath": "C:\\_ws\\Streamer\\Streamer\\Streamer.csproj",
-        "packagesPath": "C:\\Users\\5480\\.nuget\\packages\\",
-        "outputPath": "C:\\_ws\\Streamer\\Streamer\\obj\\",
+        "projectPath": "C:\\Users\\extre\\OneDrive\\Área de Trabalho\\API-STREAMER-main\\API-STREAMER-main\\Streamer\\Streamer.csproj",
+        "packagesPath": "C:\\Users\\extre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\extre\\OneDrive\\Área de Trabalho\\API-STREAMER-main\\API-STREAMER-main\\Streamer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\5480\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\extre\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,21 +37,32 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[8.*, )"
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[8.*, )"
+              "version": "[8.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -77,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

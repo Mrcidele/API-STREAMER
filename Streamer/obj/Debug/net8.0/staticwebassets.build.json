@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "dHZF/uC3BdjwUgyxsdMEaHCKMB3kuFlSqAfsZ7i5AW0=",
+  "Hash": "cGGJ1e4GoV1L9Ce9T1h0I9e2UQgKMbeSTdfrHwcmkfE=",
   "Source": "Streamer",
   "BasePath": "_content/Streamer",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }
